@@ -1,0 +1,21 @@
+{
+  "name": "Palestine - APIs",
+  "version": "1.0.0",
+  "description": "An open-source api that retrives data about palestine cities upon customized search.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape backe-end/tests/test.js",
+    "start": "node backe-end/server.js",
+    "startnodemon": "nodemon backe-end/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
